@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="165.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.cursojava.controller.FileCopyController">
+   <children>
+      <Label layoutX="21.0" layoutY="30.0" text="Arquivo de origem:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="21.0" layoutY="59.0" text="Arquivo de destino:">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtOrigem" layoutX="143.0" layoutY="26.0" prefHeight="25.0" prefWidth="356.0" />
+      <TextField fx:id="txtDestino" layoutX="143.0" layoutY="55.0" prefHeight="25.0" prefWidth="356.0" />
+      <Button layoutX="508.0" layoutY="26.0" onAction="#origemOnAction" prefHeight="25.0" prefWidth="36.0" text="..." />
+      <Button layoutX="508.0" layoutY="55.0" onAction="#destinoOnAction" prefHeight="25.0" prefWidth="36.0" text="..." />
+      <Button layoutX="153.0" layoutY="100.0" onAction="#okOnAction" prefHeight="25.0" prefWidth="126.0" text="_Ok" />
+      <Button layoutX="294.0" layoutY="100.0" onAction="#cancelarOnAction" prefHeight="25.0" prefWidth="126.0" text="_Cancelar" />
+      <Label fx:id="lblMensagem" alignment="CENTER" layoutX="12.0" layoutY="137.0" prefHeight="17.0" prefWidth="544.0" textFill="RED" />
+   </children>
+</Pane>

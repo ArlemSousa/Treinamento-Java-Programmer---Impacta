@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="315.0" prefWidth="423.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.impacta.cursojava.controller.CalculadoraController">
+   <children>
+      <Label layoutX="33.0" layoutY="34.0" prefHeight="38.0" prefWidth="153.0" text="Valor 1:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="101.0" prefHeight="38.0" prefWidth="153.0" text="Valor 2:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="168.0" prefHeight="38.0" prefWidth="153.0" text="Resultado:">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtValor1" layoutX="186.0" layoutY="24.0" prefHeight="58.0" prefWidth="205.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtValor2" layoutX="186.0" layoutY="91.0" prefHeight="58.0" prefWidth="205.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtResultado" editable="false" layoutX="186.0" layoutY="158.0" prefHeight="58.0" prefWidth="205.0">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </TextField>
+      <Button layoutX="33.0" layoutY="233.0" mnemonicParsing="false" onAction="#somarOnAction" prefHeight="58.0" prefWidth="62.0" text="+">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="131.0" layoutY="233.0" mnemonicParsing="false" onAction="#subtrairOnAction" prefHeight="58.0" prefWidth="62.0" text="-">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="230.0" layoutY="233.0" mnemonicParsing="false" onAction="#multiplicarOnAction" prefHeight="58.0" prefWidth="62.0" text="*">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button layoutX="329.0" layoutY="233.0" mnemonicParsing="false" onAction="#dividirOnAction" prefHeight="58.0" prefWidth="62.0" text="/">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
