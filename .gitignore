@@ -1,0 +1,7 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Treinamento-Java-Programmer-Impacta/FileContentIndex
+/.vs/Treinamento-Java-Programmer-Impacta/v17/.wsuo
+*.json
